@@ -1,12 +1,12 @@
 # 🎨 AI 热门 Prompt 收集日报
 
-*生成时间: 2026-02-24 15:00 UTC*
+*生成时间: 2026-02-25 15:01 UTC*
 
 ---
 
 ## 📊 今日统计
 
-- **Civitai 热门:** 8 个 prompt
+- **Civitai 热门:** 5 个 prompt
 - **Lexica 热门:** 0 个 prompt
 - **X/Twitter 精选:** 3 个 prompt
 - **模板数量:** 4 个分类
@@ -17,120 +17,73 @@
 
 ### 1. General
 
-**模型:** Unknown
+**模型:** unknown_model
 
 **Prompt:**
 ```
-Create an image of a woman, rendered in dramatic chiaroscuro against a vibrant red backdrop. The woman is primarily silhouetted in deep black, with only her eyes and the area immediately surrounding them illuminated by a thin band of warm, reddish light. Her hair is styled in a neat bun on top of her head. The lighting should create an atmosphere of mystery and intensity, emphasizing the gaze of t...
+The majestic mountain stood tall, its peak shrouded in a mystical aura that seemed to emanate from the very fabric of the starry sky above. The sky itself was a deep shade of indigo, sprinkled with a million twinkling stars that stretched out in every direction like diamonds scattered across the velvet expanse. A faint, ethereal glow emanated from the mountain's summit, as if the very essence of t...
+```
+**Negative Prompt:**
+```
+lowres, worst quality, low quality, bad anatomy, bad hands, jpeg artifacts, signature, watermark, text, logo, artist name, extra digits,  censored, patreon username, loli
 ```
 
 ---
 
 ### 2. General
 
-**模型:** Unknown
+**模型:** richyrichmixixl_V1Fp16
 
 **Prompt:**
 ```
-masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, detailed background, cute girl, eyelashes, foreshortening,
-Aka-Oni, oni, (oni horns), colored skin, (red skin:1.3), smooth horns, black horns, straight horns, mature,
-1girl, solo, oni, pointy ears, long ha...
+masterpiece, best quality, 1girl, solo, <lora:barbeloth-illu-nvwls-v1_1-000007:1> bblth, grey hair, blunt bangs, short hair, bob cut, blue eyes, mature female, dark blue hat, big hat, witch hat, hoop earrings, black choker, black dress, blue dress, two-tone dress, high collar, shoulder cutout, wide sleeves, bridal gauntlets, brown pantyhose, holding book, from side, smirk, looking at viewer, libra...
 ```
 **Negative Prompt:**
 ```
-bad quality, worst quality, worst detail, sketch, censor, signature, watermark, text,
+worst quality, low quality, bad anatomy, watermark
 ```
 
 ---
 
 ### 3. General
 
-**模型:** Unknown
+**模型:** OfficialStableDiffusion/waiIllustriousSDXL_v160
 
 **Prompt:**
 ```
-masterpiece, best quality, high detail, clean illustration, Blurry background, Depth of field,
-1girl, solo, chkjn, sharp teeth, purple hair, single braid, hair bell, yellow eyes, slit pupils, pink ribbon choker, bandage on left wrist, blurry foreground, Ani2rel,
-official clothes, blazer, ribbons on hair, holding a lollipop, open mouth, thin pink sunglasses, big silver star earring, portrait, looki...
+masterpiece, best quality, amazing quality,
+1boy, solo, f3nr1s, wolf, brown fur, yellow eyes, pauldrons, chestplate, light red shirt, black bandaged arm, dark red shorts, fenris' belt,  fenris' bandaged footwear, full body,
 ```
 **Negative Prompt:**
 ```
-(worst quality, low quality, lowres, blurry, jpeg artifacts, bad anatomy, bad hands, extra fingers, missing fingers, deformed, mutated, bad face, cross-eye, text, watermark, logo)
+bad quality, worst quality, worst detail, sketch, censor, anatomical nonsense, blurry, low quality, jpeg artifacts, text, watermark, logo, patreon, text, missing fingers, extra digits, disfigured, gli...
 ```
 
 ---
 
 ### 4. General
 
-**模型:** flux1-dev-bnb-nf4-v2
+**模型:** Unknown
 
 **Prompt:**
 ```
-<lora:gc_vintage:1> vintage <lora:Fancha_style_v.5:1> Fancha style <lora:Anime v1.3:1>  <lora:secret_grotesque_fantasy_flux1_v0.1_copy:1> secret_grotesque_fantasy
+zidiusArt, black cat is looking in shock at deformed and elongated white bird looking at it. Cat is atop of birdhouse. Cat is clearly horrified and shocked, with eyes wide open and mouth slightly open as well. Bird has extremely long neck. Cat is looking at bird
 ```
 
 ---
 
 ### 5. General
 
-**模型:** Unknown
+**模型:** flux_dev
 
 **Prompt:**
 ```
-masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, detailed background, cute girl, eyelashes, foreshortening,
-Aka-Oni, oni, (oni horns), colored skin, (red skin:1.3), smooth horns, black horns, straight horns, mature,
- 1girl, solo, portrait, close-up, prof...
+ethereal fantasy concept art of  A whimsical soft digital painting, masterpiece, high quality, innocent.
+A wide-angle fisheye distortion creating a spherical world effect, showing a golden sunset over a calm harbor where the water looks like liquid molten gold, showing ancient Greek ruins on a cliff overlooking the Aegean sea at sunset, under a terrifying black storm sky with jagged lightning illu...
 ```
 **Negative Prompt:**
 ```
-bad quality, worst quality, worst detail, sketch, censor, signature, watermark, text,
-```
-
----
-
-### 6. General
-
-**模型:** Unknown
-
-**Prompt:**
-```
-detailed photo of
-
-Winter city street scene in heavy snowfall, mint-green storefronts with vintage signage, wet cobblestone pavement reflecting warm storefront lights, snow accumulating on awnings and rooftops. Two pedestrians in long winter coats cross the street—one in a gray hooded coat, the other in a brown coat holding a white umbrella. Dense snowfall, muted palette of greens, grays, and ivor...
-```
-
----
-
-### 7. General
-
-**模型:** urn:air:sdxl:checkpoint:civitai:1277670@2578565
-
-**Prompt:**
-```
-masterpiece, best quality, very aesthetic,
-anime coloring, delicate, dreamy,  cinematic lighting, volumetric lighting, natural shadows, soft and gentle colors, soft pastel colors, soft shading, detailed textures, dappled sunlight,
-1 girl, solo, depth of field,  dynamic pose, cinematic angle,
-NakAya, Nka_Mlt, nakiri ayame, white hair, long hair, braid, gradient hair, red eyes, red streaks, streaked...
-```
-**Negative Prompt:**
-```
-lazyneg, (realistic, photorealistic) ,(worst quality, bad quality:1.2), lipstick, 3d lips, lowres,low quality,bad_quality,anatomical nonsense,interlocked fingers,extra fingers,watermark,transparent,lo...
-```
-
----
-
-### 8. General
-
-**模型:** Unknown
-
-**Prompt:**
-```
-masterpiece, best quality, very aesthetic, CivitAI BatouLaMenace, (flat color:1.5), (no lineart:1.5), (semi-realistic:2), (artist:Incase:0), (artist:Tsuaii:0), 
-1cat, white fur, animal, solo, (no people:2), sitting on a stone wall, back view, (sea, ocean:2) , blue sky, white cloud, sunlight, sunlight,
-```
-**Negative Prompt:**
-```
-bad quality, worst quality, worst detail, sketch, censor, signature, watermark, text,
+photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate...
 ```
 
 ---

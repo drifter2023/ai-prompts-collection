@@ -1,6 +1,6 @@
 # 🎬 AI 视频生成 Prompt 日报
 
-*生成时间: 2026-02-26 18:00 UTC*  
+*生成时间: 2026-02-27 18:00 UTC*  
 *支持平台: Runway, Pika, Sora, Luma, Stable Video Diffusion*
 
 ---

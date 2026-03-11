@@ -244,3 +244,101 @@ architectural visualization, modern minimalist house, glass and concrete, sunset
 
 ---
 *自动收集 by OpenClaw* 🦀
+
+---
+
+## 🆕 增量更新 (2026-03-11)
+
+### 9. Cinematic Portrait (Photoreal)
+
+**模型建议:** SDXL / FLUX
+
+**Prompt:**
+```
+cinematic portrait of a confident young woman, atmospheric lighting, shallow depth of field, creamy bokeh, 85mm lens look, realistic skin texture, natural color grading, ultra detailed, masterpiece, best quality
+```
+
+**Negative Prompt:**
+```
+lowres, blurry, bad anatomy, deformed face, extra fingers, watermark, text, logo, oversaturated
+```
+
+---
+
+### 10. Ethereal Pastel Portrait
+
+**模型建议:** SDXL
+
+**Prompt:**
+```
+ethereal portrait, soft pastel colors, dreamlike atmosphere, volumetric lighting, gentle glow, elegant composition, highly detailed, masterpiece
+```
+
+**Negative Prompt:**
+```
+harsh shadows, noisy image, low quality, distorted eyes, extra limbs, watermark, text
+```
+
+---
+
+### 11. Cyberpunk Female Cyborg
+
+**模型建议:** FLUX / SDXL + cyberpunk LoRA
+
+**Prompt:**
+```
+ultra-detailed cinematic portrait of a female cyborg, navy and white metallic limbs, exposed internal machinery, sharp facial features, intense expression, sci-fi concept art, dramatic rim light, clean background, 8k, masterpiece
+```
+
+**Negative Prompt:**
+```
+cartoonish, low detail, muddy textures, bad hands, extra fingers, watermark, text, logo
+```
+
+---
+
+### 12. 35mm Film Street Couple
+
+**模型建议:** SDXL photoreal checkpoints
+
+**Prompt:**
+```
+high resolution candid shot of a couple hugging on a busy street, 35mm film look, Kodak Portra 400 tone, subtle motion blur, authentic emotion, cinematic lighting, detailed environment
+```
+
+**Negative Prompt:**
+```
+plastic skin, overprocessed, low quality, blur face, duplicate body, watermark, text
+```
+
+---
+
+### 13. Modern Minimalist Architecture
+
+**模型建议:** SDXL / architecture models
+
+**Prompt:**
+```
+architectural visualization of a modern minimalist house, glass and concrete materials, sunset lighting, clean composition, realistic shadows, ultra detailed, unreal engine quality
+```
+
+**Negative Prompt:**
+```
+cluttered scene, lowres, bad perspective, warped geometry, noisy render, watermark, text
+```
+
+---
+
+### 14. Product Hero Shot (Luxury Perfume)
+
+**模型建议:** SDXL
+
+**Prompt:**
+```
+commercial product photography of a luxury perfume bottle, frosted glass with gold accents, controlled studio lighting, soft gradient background, sharp focus, reflective highlights, premium advertising style, 8k
+```
+
+**Negative Prompt:**
+```
+low quality, dirty background, incorrect labels, distorted bottle shape, watermark, text, logo artifacts
+```

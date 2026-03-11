@@ -579,3 +579,273 @@ response = model.generate_content([
 
 ---
 *自动收集 by OpenClaw* 🦀
+
+---
+
+## 🆕 增量编辑 Prompt (2026-03-11)
+
+### 1. 折射玻璃肖像重绘（Reeded Glass Distortion）
+
+**Prompt:**
+```
+[image URL] Re-render this portrait as if photographed through thick vertically reeded architectural glass, strong vertical optical refraction, soft studio light, pale neutral background, keep subject identity recognizable --iw 1.4
+```
+
+**适用:** Midjourney / SD img2img
+
+---
+
+### 2. 蓝图科技风叠加（Blueprint Overlay）
+
+**Prompt:**
+```
+[image URL] Transform into a sci-fi concept sheet style with subtle blueprint line overlays and technical sketch annotations around the subject, keep core silhouette and facial features --iw 1.3
+```
+
+**适用:** SDXL img2img + ControlNet lineart
+
+---
+
+### 3. 电影感肤质保留增强（Skin-Preserving Cinematic Grade）
+
+**Prompt:**
+```
+[image URL] Apply cinematic color grading with natural skin tone preservation, shallow depth-of-field simulation, gentle bokeh background, maintain original facial structure exactly --iw 1.8
+```
+
+**适用:** 人像精修流程
+
+---
+
+### 4. 老片胶片化转换（35mm Portra Look）
+
+**Prompt:**
+```
+[image URL] Convert this image into a 35mm Kodak Portra-style film photograph, subtle grain, realistic contrast roll-off, slight motion energy, documentary street mood --iw 1.2
+```
+
+**适用:** 人文/街拍图像
+
+---
+
+### 5. 赛博材质替换（Cyber Material Swap）
+
+**Prompt:**
+```
+[image URL] Replace clothing and accessories with reflective black alloy cyberpunk materials, add precise mechanical detailing and neon rim light, preserve pose and composition --iw 1.5
+```
+
+**适用:** 角色风格化
+
+---
+
+### 6. 商业产品棚拍重构（Product Hero Relight）
+
+**Prompt:**
+```
+[image URL] Rebuild this object into a premium commercial hero shot with controlled three-point studio lighting, clean gradient backdrop, crisp reflections, and ad-quality detail --iw 1.6
+```
+
+**适用:** 产品图升级/电商主图
+
+---
+
+## 🆕 img2img 全类型专项更新 (2026-03-11)
+
+> 目标：覆盖“任何类型”的 img2img，用独立条目拆分，不合并。
+
+### 7. 人像保脸 + 光线重置 (Face Lock + Relight)
+
+**Prompt:**
+```
+[image URL] Keep the exact same identity and facial geometry, regenerate with cinematic side lighting, clean skin texture, subtle film grain, shallow depth of field, realistic 85mm lens rendering --iw 2.0
+```
+
+**关键词:** face consistency, relight, portrait enhancement
+
+---
+
+### 8. 白天改夜景 (Day-to-Night Conversion)
+
+**Prompt:**
+```
+[image URL] Convert this daytime street scene into night, add neon signage reflections on wet ground, cool ambient shadows, practical light sources from shop windows, cinematic contrast --iw 1.6
+```
+
+**关键词:** day to night, relighting, environment conversion
+
+---
+
+### 9. 天气改造：晴天转雨天
+
+**Prompt:**
+```
+[image URL] Transform clear weather into rainy atmosphere, add rainfall streaks, wet surfaces, puddle reflections, overcast sky, realistic moisture on materials while preserving original composition --iw 1.5
+```
+
+**关键词:** weather transfer, rain effect, mood change
+
+---
+
+### 10. 季节迁移：夏到冬
+
+**Prompt:**
+```
+[image URL] Change season from summer to winter, replace foliage with sparse frosted branches, add thin snow cover, cool color temperature, soft winter haze, keep perspective and structure unchanged --iw 1.4
+```
+
+**关键词:** season transfer, environment swap
+
+---
+
+### 11. 写实照片转动漫
+
+**Prompt:**
+```
+[image URL] Reinterpret this photo in high-quality anime style, clean linework, cel-shading, expressive eyes, controlled color blocks, keep original pose and camera framing --iw 1.3 --stylize 600
+```
+
+**关键词:** photo to anime, stylization
+
+---
+
+### 12. 动漫转写实
+
+**Prompt:**
+```
+[image URL] Convert anime illustration into photorealistic cinematic portrait, natural skin texture, physically plausible lighting, realistic materials and depth, preserve hairstyle and outfit silhouette --iw 1.5
+```
+
+**关键词:** anime to real, realism transfer
+
+---
+
+### 13. 线稿上色 (Sketch-to-Render)
+
+**Prompt:**
+```
+[image URL] Colorize and fully render this line art into polished concept art, retain original line composition, add material definition, global illumination, and production-quality shading --iw 1.7
+```
+
+**关键词:** sketch to render, concept art
+
+---
+
+### 14. 建筑旧改新（Facade Renovation）
+
+**Prompt:**
+```
+[image URL] Redesign this building facade into modern minimalist architecture, replace exterior materials with concrete/glass/wood, balanced daylight, realistic construction details, keep structural proportions --iw 1.5
+```
+
+**关键词:** architecture redesign, facade remaster
+
+---
+
+### 15. 产品重拍：随手拍→商业图
+
+**Prompt:**
+```
+[image URL] Turn this casual product photo into a premium studio advertisement shot, clean gradient background, controlled highlights, micro-detail texture, sharp edges, luxury branding aesthetic --iw 1.8
+```
+
+**关键词:** product relight, ad photography
+
+---
+
+### 16. LOGO/文字保留的海报重绘
+
+**Prompt:**
+```
+[image URL] Recompose into a modern poster design while preserving key logo/text areas exactly, enhance typography hierarchy, cinematic background graphics, clean visual balance --iw 1.9
+```
+
+**关键词:** poster redesign, text-preserving img2img
+
+---
+
+### 17. 局部替换：服装材质升级
+
+**Prompt:**
+```
+[image URL] Keep person identity and pose unchanged, replace clothing fabric with black silk and metallic accents, realistic folds, specular highlights, editorial fashion look --iw 1.7
+```
+
+**关键词:** outfit swap, material editing
+
+---
+
+### 18. 局部替换：发型与发色
+
+**Prompt:**
+```
+[image URL] Keep face identity unchanged, change hairstyle to layered shoulder-length cut with silver-lavender hair color, natural strands, realistic volume, studio portrait quality --iw 1.8
+```
+
+**关键词:** hairstyle transfer, identity-safe edit
+
+---
+
+### 19. 背景替换：室内到科幻街景
+
+**Prompt:**
+```
+[image URL] Preserve subject scale and position, replace background with futuristic cyberpunk street, holographic ads, atmospheric fog, wet pavement reflections, strong depth perspective --iw 1.6
+```
+
+**关键词:** background replacement, scene expansion
+
+---
+
+### 20. 景深重建：手机平图→电影感
+
+**Prompt:**
+```
+[image URL] Rebuild this flat smartphone shot with cinematic depth, strong subject separation, realistic foreground/background blur falloff, subtle filmic color grading --iw 1.4
+```
+
+**关键词:** depth reconstruction, cinematic enhancement
+
+---
+
+### 21. 运动模糊增强（动态感重建）
+
+**Prompt:**
+```
+[image URL] Keep the main subject readable but add directional motion blur to limbs/background, dynamic shutter feel, action-photography energy, realistic light streak behavior --iw 1.3
+```
+
+**关键词:** motion enhancement, action stylization
+
+---
+
+### 22. 老照片修复 + 上色
+
+**Prompt:**
+```
+[image URL] Restore this old damaged photo: remove scratches and noise, reconstruct missing details, natural skin tones, historically plausible colorization, preserve original expression and composition --iw 1.9
+```
+
+**关键词:** restoration, colorization
+
+---
+
+### 23. 低清放大重绘（HQ Upscale Regeneration）
+
+**Prompt:**
+```
+[image URL] Regenerate this low-resolution image into high-resolution detailed output, preserve overall composition, improve texture fidelity, clean edges, remove compression artifacts --iw 1.8
+```
+
+**关键词:** upscale, super-resolution style regeneration
+
+---
+
+### 24. 商品场景化（Packshot to Lifestyle）
+
+**Prompt:**
+```
+[image URL] Keep the product shape and branding exact, place it naturally in a lifestyle scene (e.g., modern desk/cafe/bathroom), realistic shadows and contact lighting, commercial-grade composition --iw 1.7
+```
+
+**关键词:** packshot to lifestyle, scene integration
